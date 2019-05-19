@@ -55,9 +55,11 @@ text-align: left
 h3
 
 {
-border: 3px;
+box-sizing: content-box; 
 border-style: groove;
-border-color: darkred;
-border-width: 10px;
+  width: 100px;
+  height: 20px;
+  padding: 20px;  
+  border: 10px solid rgb(121, 0, 0);
   background-color:rgb(18, 2, 119);
 }
